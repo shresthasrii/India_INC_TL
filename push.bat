@@ -23,7 +23,7 @@ git commit -m "Telangana - Land of Heritage release" 2>nul
 echo [INFO] Checking remote origin...
 git remote get-url origin >nul 2>nul
 if %errorlevel% neq 0 (
-    git remote add origin https://github.com/shresthasrii/India_INC_TL.git
+    git remote add origin https://shresthasrii@github.com/shresthasrii/India_INC_TL.git
 )
 
 echo [INFO] Running: git push -u origin main
