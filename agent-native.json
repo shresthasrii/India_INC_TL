@@ -1,5 +1,9 @@
 {
   "version": 1,
+  "changelog": {
+    "enabled": false
+  },
+  "harness": true,
   "onboarding": {
     "firstRun": "off"
   },
